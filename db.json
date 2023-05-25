@@ -3,646 +3,176 @@
     {
       "userName": "Dharmik",
       "email": "dharmikpuri2004@gmail.com",
-      "password": "12345",
+      "password": "1234",
+      "type": "NotDoctor",
       "id": 1
     }
   ],
-  "recipies": [
+  "appointments": [
     {
-      "title": "Ghevar",
-      "image": "https://i.pinimg.com/474x/a7/a9/33/a7a9338c8eb1e5f7a404d65ee35b2b40.jpg",
-      "description": "nice taste",
-      "category": "maincourse",
-      "ingredients": [
-        "sugar",
-        "rabdi",
-        "ghee",
-        "pista"
-      ],
-      "instructions": "See recipe on youtube",
-      "id": 1
-    },
-    {
-      "title": "Dal bati",
-      "image": "https://i.pinimg.com/474x/e9/7c/fa/e97cfad62800f678af285cab16dc020f.jpg",
-      "description": "nice taste",
-      "category": "maincourse",
-      "ingredients": [
-        "wheat",
-        "dal",
-        "salt"
-      ],
-      "instructions": "See recipe on youtube",
+      "name": "Payal",
+      "image": "https://i.pinimg.com/474x/7b/de/b5/7bdeb59ac67e572286c16718a96c6138.jpg",
+      "specialization": "dermatologist",
+      "experience": 6,
+      "location": "Jaipur",
+      "date": "2023-05-04",
+      "slot": 5,
+      "fee": 1000,
       "id": 2
     },
     {
-      "title": "Panner tikka",
-      "image": "https://i.pinimg.com/474x/b3/fe/5f/b3fe5fa3ae307c2e815013b26d321701.jpg",
-      "description": "nice taste",
-      "category": "starter",
-      "ingredients": [
-        "panner",
-        "masale"
-      ],
-      "instructions": "See recipe on youtube",
+      "name": "Jully",
+      "image": "https://i.pinimg.com/474x/e5/3e/87/e53e8760a712ca7f9753944e270cc2df.jpg",
+      "specialization": "pediatrician",
+      "experience": 3,
+      "location": "Jodhpur",
+      "date": "2023-05-09",
+      "slot": 4,
+      "fee": 500,
       "id": 3
     },
     {
-      "title": "Kulfi",
-      "image": "https://i.pinimg.com/474x/7d/01/93/7d01931e45aba2201a8ee13490ff379f.jpg",
-      "description": "nice taste",
-      "category": "dessert",
-      "ingredients": [
-        "suager",
-        "rabdi",
-        "mawa",
-        "pista"
-      ],
-      "instructions": "See recipe on youtube",
+      "name": "Jane Doe",
+      "image": "https://i.pinimg.com/474x/7d/b7/43/7db74393ec1df48ab9b083af18da4b53.jpg",
+      "specialization": "psychiatrist ",
+      "experience": 10,
+      "location": "Los Angeles",
+      "date": "2023-05-10",
+      "slot": 2,
+      "fee": 150,
       "id": 4
     },
     {
-        "title": "Ghevar",
-        "image": "https://i.pinimg.com/474x/a7/a9/33/a7a9338c8eb1e5f7a404d65ee35b2b40.jpg",
-        "description": "nice taste",
-        "category": "maincourse",
-        "ingredients": [
-          "sugar",
-          "rabdi",
-          "ghee",
-          "pista"
-        ],
-        "instructions": "See recipe on youtube",
-        "id": 5
-      },
-      {
-        "title": "Dal bati",
-        "image": "https://i.pinimg.com/474x/e9/7c/fa/e97cfad62800f678af285cab16dc020f.jpg",
-        "description": "nice taste",
-        "category": "maincourse",
-        "ingredients": [
-          "wheat",
-          "dal",
-          "salt"
-        ],
-        "instructions": "See recipe on youtube",
-        "id": 6
-      },
-      {
-        "title": "Panner tikka",
-        "image": "https://i.pinimg.com/474x/b3/fe/5f/b3fe5fa3ae307c2e815013b26d321701.jpg",
-        "description": "nice taste",
-        "category": "starter",
-        "ingredients": [
-          "panner",
-          "masale"
-        ],
-        "instructions": "See recipe on youtube",
-        "id": 7
-      },
-      {
-        "title": "Kulfi",
-        "image": "https://i.pinimg.com/474x/7d/01/93/7d01931e45aba2201a8ee13490ff379f.jpg",
-        "description": "nice taste",
-        "category": "dessert",
-        "ingredients": [
-          "suager",
-          "rabdi",
-          "mawa",
-          "pista"
-        ],
-        "instructions": "See recipe on youtube",
-        "id": 8
-      },
-      {
-        "title": "Ghevar",
-        "image": "https://i.pinimg.com/474x/a7/a9/33/a7a9338c8eb1e5f7a404d65ee35b2b40.jpg",
-        "description": "nice taste",
-        "category": "maincourse",
-        "ingredients": [
-          "sugar",
-          "rabdi",
-          "ghee",
-          "pista"
-        ],
-        "instructions": "See recipe on youtube",
-        "id": 1
-      },
-      {
-        "title": "Dal bati",
-        "image": "https://i.pinimg.com/474x/e9/7c/fa/e97cfad62800f678af285cab16dc020f.jpg",
-        "description": "nice taste",
-        "category": "maincourse",
-        "ingredients": [
-          "wheat",
-          "dal",
-          "salt"
-        ],
-        "instructions": "See recipe on youtube",
-        "id": 2
-      },
-      {
-        "title": "Panner tikka",
-        "image": "https://i.pinimg.com/474x/b3/fe/5f/b3fe5fa3ae307c2e815013b26d321701.jpg",
-        "description": "nice taste",
-        "category": "starter",
-        "ingredients": [
-          "panner",
-          "masale"
-        ],
-        "instructions": "See recipe on youtube",
-        "id": 3
-      },
-      {
-        "title": "Kulfi",
-        "image": "https://i.pinimg.com/474x/7d/01/93/7d01931e45aba2201a8ee13490ff379f.jpg",
-        "description": "nice taste",
-        "category": "dessert",
-        "ingredients": [
-          "suager",
-          "rabdi",
-          "mawa",
-          "pista"
-        ],
-        "instructions": "See recipe on youtube",
-        "id": 4
-      },
-      {
-        "title": "Ghevar",
-        "image": "https://i.pinimg.com/474x/a7/a9/33/a7a9338c8eb1e5f7a404d65ee35b2b40.jpg",
-        "description": "nice taste",
-        "category": "maincourse",
-        "ingredients": [
-          "sugar",
-          "rabdi",
-          "ghee",
-          "pista"
-        ],
-        "instructions": "See recipe on youtube",
-        "id": 1
-      },
-      {
-        "title": "Dal bati",
-        "image": "https://i.pinimg.com/474x/e9/7c/fa/e97cfad62800f678af285cab16dc020f.jpg",
-        "description": "nice taste",
-        "category": "maincourse",
-        "ingredients": [
-          "wheat",
-          "dal",
-          "salt"
-        ],
-        "instructions": "See recipe on youtube",
-        "id": 2
-      },
-      {
-        "title": "Panner tikka",
-        "image": "https://i.pinimg.com/474x/b3/fe/5f/b3fe5fa3ae307c2e815013b26d321701.jpg",
-        "description": "nice taste",
-        "category": "starter",
-        "ingredients": [
-          "panner",
-          "masale"
-        ],
-        "instructions": "See recipe on youtube",
-        "id": 3
-      },
-      {
-        "title": "Kulfi",
-        "image": "https://i.pinimg.com/474x/7d/01/93/7d01931e45aba2201a8ee13490ff379f.jpg",
-        "description": "nice taste",
-        "category": "dessert",
-        "ingredients": [
-          "suager",
-          "rabdi",
-          "mawa",
-          "pista"
-        ],
-        "instructions": "See recipe on youtube",
-        "id": 4
-      },
-      {
-        "title": "Ghevar",
-        "image": "https://i.pinimg.com/474x/a7/a9/33/a7a9338c8eb1e5f7a404d65ee35b2b40.jpg",
-        "description": "nice taste",
-        "category": "maincourse",
-        "ingredients": [
-          "sugar",
-          "rabdi",
-          "ghee",
-          "pista"
-        ],
-        "instructions": "See recipe on youtube",
-        "id": 1
-      },
-      {
-        "title": "Dal bati",
-        "image": "https://i.pinimg.com/474x/e9/7c/fa/e97cfad62800f678af285cab16dc020f.jpg",
-        "description": "nice taste",
-        "category": "maincourse",
-        "ingredients": [
-          "wheat",
-          "dal",
-          "salt"
-        ],
-        "instructions": "See recipe on youtube",
-        "id": 2
-      },
-      {
-        "title": "Panner tikka",
-        "image": "https://i.pinimg.com/474x/b3/fe/5f/b3fe5fa3ae307c2e815013b26d321701.jpg",
-        "description": "nice taste",
-        "category": "starter",
-        "ingredients": [
-          "panner",
-          "masale"
-        ],
-        "instructions": "See recipe on youtube",
-        "id": 3
-      },
-      {
-        "title": "Kulfi",
-        "image": "https://i.pinimg.com/474x/7d/01/93/7d01931e45aba2201a8ee13490ff379f.jpg",
-        "description": "nice taste",
-        "category": "dessert",
-        "ingredients": [
-          "suager",
-          "rabdi",
-          "mawa",
-          "pista"
-        ],
-        "instructions": "See recipe on youtube",
-        "id": 4
-      },
-      {
-        "title": "Ghevar",
-        "image": "https://i.pinimg.com/474x/a7/a9/33/a7a9338c8eb1e5f7a404d65ee35b2b40.jpg",
-        "description": "nice taste",
-        "category": "maincourse",
-        "ingredients": [
-          "sugar",
-          "rabdi",
-          "ghee",
-          "pista"
-        ],
-        "instructions": "See recipe on youtube",
-        "id": 1
-      },
-      {
-        "title": "Dal bati",
-        "image": "https://i.pinimg.com/474x/e9/7c/fa/e97cfad62800f678af285cab16dc020f.jpg",
-        "description": "nice taste",
-        "category": "maincourse",
-        "ingredients": [
-          "wheat",
-          "dal",
-          "salt"
-        ],
-        "instructions": "See recipe on youtube",
-        "id": 2
-      },
-      {
-        "title": "Panner tikka",
-        "image": "https://i.pinimg.com/474x/b3/fe/5f/b3fe5fa3ae307c2e815013b26d321701.jpg",
-        "description": "nice taste",
-        "category": "starter",
-        "ingredients": [
-          "panner",
-          "masale"
-        ],
-        "instructions": "See recipe on youtube",
-        "id": 3
-      },
-      {
-        "title": "Kulfi",
-        "image": "https://i.pinimg.com/474x/7d/01/93/7d01931e45aba2201a8ee13490ff379f.jpg",
-        "description": "nice taste",
-        "category": "dessert",
-        "ingredients": [
-          "suager",
-          "rabdi",
-          "mawa",
-          "pista"
-        ],
-        "instructions": "See recipe on youtube",
-        "id": 4
-      },
-      {
-        "title": "Ghevar",
-        "image": "https://i.pinimg.com/474x/a7/a9/33/a7a9338c8eb1e5f7a404d65ee35b2b40.jpg",
-        "description": "nice taste",
-        "category": "maincourse",
-        "ingredients": [
-          "sugar",
-          "rabdi",
-          "ghee",
-          "pista"
-        ],
-        "instructions": "See recipe on youtube",
-        "id": 1
-      },
-      {
-        "title": "Dal bati",
-        "image": "https://i.pinimg.com/474x/e9/7c/fa/e97cfad62800f678af285cab16dc020f.jpg",
-        "description": "nice taste",
-        "category": "maincourse",
-        "ingredients": [
-          "wheat",
-          "dal",
-          "salt"
-        ],
-        "instructions": "See recipe on youtube",
-        "id": 2
-      },
-      {
-        "title": "Panner tikka",
-        "image": "https://i.pinimg.com/474x/b3/fe/5f/b3fe5fa3ae307c2e815013b26d321701.jpg",
-        "description": "nice taste",
-        "category": "starter",
-        "ingredients": [
-          "panner",
-          "masale"
-        ],
-        "instructions": "See recipe on youtube",
-        "id": 3
-      },
-      {
-        "title": "Kulfi",
-        "image": "https://i.pinimg.com/474x/7d/01/93/7d01931e45aba2201a8ee13490ff379f.jpg",
-        "description": "nice taste",
-        "category": "dessert",
-        "ingredients": [
-          "suager",
-          "rabdi",
-          "mawa",
-          "pista"
-        ],
-        "instructions": "See recipe on youtube",
-        "id": 4
-      },
-      {
-        "title": "Ghevar",
-        "image": "https://i.pinimg.com/474x/a7/a9/33/a7a9338c8eb1e5f7a404d65ee35b2b40.jpg",
-        "description": "nice taste",
-        "category": "maincourse",
-        "ingredients": [
-          "sugar",
-          "rabdi",
-          "ghee",
-          "pista"
-        ],
-        "instructions": "See recipe on youtube",
-        "id": 1
-      },
-      {
-        "title": "Dal bati",
-        "image": "https://i.pinimg.com/474x/e9/7c/fa/e97cfad62800f678af285cab16dc020f.jpg",
-        "description": "nice taste",
-        "category": "maincourse",
-        "ingredients": [
-          "wheat",
-          "dal",
-          "salt"
-        ],
-        "instructions": "See recipe on youtube",
-        "id": 2
-      },
-      {
-        "title": "Panner tikka",
-        "image": "https://i.pinimg.com/474x/b3/fe/5f/b3fe5fa3ae307c2e815013b26d321701.jpg",
-        "description": "nice taste",
-        "category": "starter",
-        "ingredients": [
-          "panner",
-          "masale"
-        ],
-        "instructions": "See recipe on youtube",
-        "id": 3
-      },
-      {
-        "title": "Kulfi",
-        "image": "https://i.pinimg.com/474x/7d/01/93/7d01931e45aba2201a8ee13490ff379f.jpg",
-        "description": "nice taste",
-        "category": "dessert",
-        "ingredients": [
-          "suager",
-          "rabdi",
-          "mawa",
-          "pista"
-        ],
-        "instructions": "See recipe on youtube",
-        "id": 4
-      },
-      {
-        "title": "Ghevar",
-        "image": "https://i.pinimg.com/474x/a7/a9/33/a7a9338c8eb1e5f7a404d65ee35b2b40.jpg",
-        "description": "nice taste",
-        "category": "maincourse",
-        "ingredients": [
-          "sugar",
-          "rabdi",
-          "ghee",
-          "pista"
-        ],
-        "instructions": "See recipe on youtube",
-        "id": 1
-      },
-      {
-        "title": "Dal bati",
-        "image": "https://i.pinimg.com/474x/e9/7c/fa/e97cfad62800f678af285cab16dc020f.jpg",
-        "description": "nice taste",
-        "category": "maincourse",
-        "ingredients": [
-          "wheat",
-          "dal",
-          "salt"
-        ],
-        "instructions": "See recipe on youtube",
-        "id": 2
-      },
-      {
-        "title": "Panner tikka",
-        "image": "https://i.pinimg.com/474x/b3/fe/5f/b3fe5fa3ae307c2e815013b26d321701.jpg",
-        "description": "nice taste",
-        "category": "starter",
-        "ingredients": [
-          "panner",
-          "masale"
-        ],
-        "instructions": "See recipe on youtube",
-        "id": 3
-      },
-      {
-        "title": "Kulfi",
-        "image": "https://i.pinimg.com/474x/7d/01/93/7d01931e45aba2201a8ee13490ff379f.jpg",
-        "description": "nice taste",
-        "category": "dessert",
-        "ingredients": [
-          "suager",
-          "rabdi",
-          "mawa",
-          "pista"
-        ],
-        "instructions": "See recipe on youtube",
-        "id": 4
-      },
-      {
-        "title": "Ghevar",
-        "image": "https://i.pinimg.com/474x/a7/a9/33/a7a9338c8eb1e5f7a404d65ee35b2b40.jpg",
-        "description": "nice taste",
-        "category": "maincourse",
-        "ingredients": [
-          "sugar",
-          "rabdi",
-          "ghee",
-          "pista"
-        ],
-        "instructions": "See recipe on youtube",
-        "id": 1
-      },
-      {
-        "title": "Dal bati",
-        "image": "https://i.pinimg.com/474x/e9/7c/fa/e97cfad62800f678af285cab16dc020f.jpg",
-        "description": "nice taste",
-        "category": "maincourse",
-        "ingredients": [
-          "wheat",
-          "dal",
-          "salt"
-        ],
-        "instructions": "See recipe on youtube",
-        "id": 2
-      },
-      {
-        "title": "Panner tikka",
-        "image": "https://i.pinimg.com/474x/b3/fe/5f/b3fe5fa3ae307c2e815013b26d321701.jpg",
-        "description": "nice taste",
-        "category": "starter",
-        "ingredients": [
-          "panner",
-          "masale"
-        ],
-        "instructions": "See recipe on youtube",
-        "id": 3
-      },
-      {
-        "title": "Kulfi",
-        "image": "https://i.pinimg.com/474x/7d/01/93/7d01931e45aba2201a8ee13490ff379f.jpg",
-        "description": "nice taste",
-        "category": "dessert",
-        "ingredients": [
-          "suager",
-          "rabdi",
-          "mawa",
-          "pista"
-        ],
-        "instructions": "See recipe on youtube",
-        "id": 4
-      },
-      {
-        "title": "Ghevar",
-        "image": "https://i.pinimg.com/474x/a7/a9/33/a7a9338c8eb1e5f7a404d65ee35b2b40.jpg",
-        "description": "nice taste",
-        "category": "maincourse",
-        "ingredients": [
-          "sugar",
-          "rabdi",
-          "ghee",
-          "pista"
-        ],
-        "instructions": "See recipe on youtube",
-        "id": 1
-      },
-      {
-        "title": "Dal bati",
-        "image": "https://i.pinimg.com/474x/e9/7c/fa/e97cfad62800f678af285cab16dc020f.jpg",
-        "description": "nice taste",
-        "category": "maincourse",
-        "ingredients": [
-          "wheat",
-          "dal",
-          "salt"
-        ],
-        "instructions": "See recipe on youtube",
-        "id": 2
-      },
-      {
-        "title": "Panner tikka",
-        "image": "https://i.pinimg.com/474x/b3/fe/5f/b3fe5fa3ae307c2e815013b26d321701.jpg",
-        "description": "nice taste",
-        "category": "starter",
-        "ingredients": [
-          "panner",
-          "masale"
-        ],
-        "instructions": "See recipe on youtube",
-        "id": 3
-      },
-      {
-        "title": "Kulfi",
-        "image": "https://i.pinimg.com/474x/7d/01/93/7d01931e45aba2201a8ee13490ff379f.jpg",
-        "description": "nice taste",
-        "category": "dessert",
-        "ingredients": [
-          "suager",
-          "rabdi",
-          "mawa",
-          "pista"
-        ],
-        "instructions": "See recipe on youtube",
-        "id": 4
-      },
-      {
-        "title": "Ghevar",
-        "image": "https://i.pinimg.com/474x/a7/a9/33/a7a9338c8eb1e5f7a404d65ee35b2b40.jpg",
-        "description": "nice taste",
-        "category": "maincourse",
-        "ingredients": [
-          "sugar",
-          "rabdi",
-          "ghee",
-          "pista"
-        ],
-        "instructions": "See recipe on youtube",
-        "id": 45
-      },
-      {
-        "title": "Dal bati",
-        "image": "https://i.pinimg.com/474x/e9/7c/fa/e97cfad62800f678af285cab16dc020f.jpg",
-        "description": "nice taste",
-        "category": "maincourse",
-        "ingredients": [
-          "wheat",
-          "dal",
-          "salt"
-        ],
-        "instructions": "See recipe on youtube",
-        "id": 46
-      },
-      {
-        "title": "Panner tikka",
-        "image": "https://i.pinimg.com/474x/b3/fe/5f/b3fe5fa3ae307c2e815013b26d321701.jpg",
-        "description": "nice taste",
-        "category": "starter",
-        "ingredients": [
-          "panner",
-          "masale"
-        ],
-        "instructions": "See recipe on youtube",
-        "id": 47
-      },
-      {
-        "title": "Kulfi",
-        "image": "https://i.pinimg.com/474x/7d/01/93/7d01931e45aba2201a8ee13490ff379f.jpg",
-        "description": "nice taste",
-        "category": "dessert",
-        "ingredients": [
-          "suager",
-          "rabdi",
-          "mawa",
-          "pista"
-        ],
-        "instructions": "See recipe on youtube",
-        "id": 48
-      }
+      "name": "Mark Johnson",
+      "image": "https://i.pinimg.com/474x/ef/d0/94/efd09480361a7ede8ef71bd97eedb2c5.jpg",
+      "specialization": "dermatologist",
+      "experience": 13,
+      "location": "Paris",
+      "date": "2023-05-22",
+      "slot": 6,
+      "fee": 100,
+      "id": 5
+    },
+    {
+      "name": "Abc",
+      "image": "https://i.pinimg.com/474x/59/c6/fe/59c6febf717b3b9dbb2b7ff8df5b9c77.jpg",
+      "specialization": "pediatrician",
+      "experience": 3,
+      "location": "Udaipur",
+      "date": "2023-05-09",
+      "slot": 4,
+      "fee": 1000,
+      "id": 6
+    },
+    {
+      "name": "Dummy",
+      "image": "https://i.pinimg.com/474x/7e/91/b7/7e91b721691322422919eec7dc039618.jpg",
+      "specialization": "psychiatrist ",
+      "experience": 2,
+      "location": "Udaipur",
+      "date": "2023-05-10",
+      "slot": 2,
+      "fee": 200,
+      "id": 7
+    },
+    {
+      "name": "Shruti",
+      "image": "https://i.pinimg.com/474x/2a/c3/87/2ac387f5e5742b3ea31bafd2bed70dc2.jpg",
+      "specialization": "dermatologist",
+      "experience": 12,
+      "location": "Los Angeles",
+      "date": "2023-05-10",
+      "slot": 5,
+      "fee": 1200,
+      "id": 8
+    },
+    {
+      "name": "Jhoony",
+      "image": "https://i.pinimg.com/474x/e6/21/c2/e621c2c9381c059cc61f17f76647de20.jpg",
+      "specialization": "psychiatrist ",
+      "experience": 5,
+      "location": "Los Angeles",
+      "date": "2023-05-11",
+      "slot": 10,
+      "fee": 1300,
+      "id": 9
+    },
+    {
+      "name": "Salmon",
+      "image": "https://i.pinimg.com/474x/3c/c5/5d/3cc55d8fd3498a3bcd73ffff5134c0d2.jpg",
+      "specialization": "pediatrician",
+      "experience": 3,
+      "location": "Jodhpur",
+      "date": "2023-05-29",
+      "slot": 2,
+      "fee": 130,
+      "id": 10
+    },
+    {
+      "name": "Peter",
+      "image": "https://i.pinimg.com/474x/da/38/ba/da38badc6a401cc69c7f7dd7b7f18948.jpg",
+      "specialization": "cardiologist",
+      "experience": 2,
+      "location": "Paris",
+      "date": "2023-05-16",
+      "slot": 4,
+      "fee": 500,
+      "id": 11
+    },
+    {
+      "name": "Katrina",
+      "image": "https://i.pinimg.com/474x/e6/5c/a1/e65ca1dc632163e839f8f1af8cbc3b77.jpg",
+      "specialization": "psychiatrist ",
+      "experience": 10,
+      "location": "Mumbai",
+      "date": "2023-05-09",
+      "slot": 12,
+      "fee": 2000,
+      "id": 13
+    },
+    {
+      "name": "Salman",
+      "image": "https://i.pinimg.com/474x/dc/00/00/dc0000be778f63344c0ee4af0942af53.jpg",
+      "specialization": "pediatrician",
+      "experience": 2,
+      "location": "Jaipur",
+      "date": "2023-05-15",
+      "slot": 3,
+      "fee": 1200,
+      "id": 14
+    },
+    {
+      "name": "Kiara",
+      "image": "https://i.pinimg.com/474x/a4/04/ea/a404ea0a79880e8a6e667b6326df3c2a.jpg",
+      "specialization": "pediatrician",
+      "experience": 4,
+      "location": "Mumbai",
+      "date": "2023-05-01",
+      "slot": 4,
+      "fee": 1500,
+      "id": 15
+    },
+    {
+      "name": "Dharmik",
+      "image": "https://i.pinimg.com/474x/d6/8b/4d/d68b4dca964f901d73d6890c11bd864d.jpg",
+      "specialization": "pediatrician",
+      "experience": 4,
+      "location": "Los Angeles",
+      "date": "2023-05-23",
+      "slot": 5,
+      "fee": 140,
+      "id": 16
+    },
+    {
+      "name": "Dharmik",
+      "image": "https://i.pinimg.com/474x/e5/3e/87/e53e8760a712ca7f9753944e270cc2df.jpg",
+      "specialization": "pediatrician",
+      "experience": 12,
+      "location": "Udaipur",
+      "date": "2023-05-31",
+      "slot": 2,
+      "fee": 1300,
+      "id": 17
+    }
   ]
 }
